@@ -22,7 +22,6 @@ PingPongSpec.prototype.expectToEqual = function (object){
   if ( this.toEqual(object, this.expectation)) {
     console.log(this._it + " PASSED");
   } else {
-    console.log(this._it + " FAIL");
-    console.log("Expected " + this.expectation + " and got " + this._testObject);
+    throw new Error(this._it + " FAILED, Expected " + this.expectation + " and got " + this._testObject);
   }
 };
