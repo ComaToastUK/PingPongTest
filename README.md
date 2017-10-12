@@ -27,3 +27,5 @@ exampleTest();
 ### Collaborators
 - James Stubbs
 - Rory Hodgson
+- Mengchen Wang
+- Zoe Hopkins
