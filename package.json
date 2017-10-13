@@ -1,8 +1,8 @@
 {
   "name": "pingpongtest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a super-lightweight testing library for unit testing pure javascript models.",
-  "main": "PingPongSpecRunner.html",
+  "main": "src/PingPongTest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
