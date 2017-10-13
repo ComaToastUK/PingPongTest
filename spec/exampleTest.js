@@ -7,5 +7,5 @@
     exampleTest.expectToEqual(Some_expected_output); // Input the expected output as an arg
   }
 
-exampleTest();
+  exampleTest(); //call your testMethod here
 })(this);
