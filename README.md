@@ -1,4 +1,4 @@
-# PING PONG TEST
+# 🏓 PING PONG TEST 🏓
 
 This is a super-lightweight testing library for unit testing pure javascript models.
 
