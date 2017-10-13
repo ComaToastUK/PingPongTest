@@ -1,6 +1,6 @@
 {
   "name": "pingpongtest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a super-lightweight testing library for unit testing pure javascript models.",
   "main": "PingPongSpecRunner.html",
   "scripts": {
