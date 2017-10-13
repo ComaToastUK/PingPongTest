@@ -18,6 +18,7 @@ PingPongSpec.prototype.toEqual = function(a, b) {
 
 PingPongSpec.prototype.expectToEqual = function(object) {
   this._testObject = object;
+  this.renderTest();
   if (this.toEqual(object, this.expectation)) {
     console.log(this._it + " PASSED");
   } else {
@@ -28,5 +29,31 @@ PingPongSpec.prototype.expectToEqual = function(object) {
         " and got " +
         this._testObject
     );
+  }
+};
+
+PingPongSpec.prototype.renderTest = function() {
+  this.failHash = {
+    fail_output:
+      "The test: 'it " +
+      this._it +
+      "' FAILED, expected " +
+      this.expectation +
+      " and got " +
+      this._testObject
+  };
+  this.passHash = {
+    pass_output:
+      "The test: 'it " +
+      this._it +
+      " PASSED!"
+  };
+
+  var renderer = new PingPongRenderer();
+
+  if (this.expectation === this._testObject) {
+    renderer.view(this.passHash);
+  } else {
+    renderer.view(this.failHash);
   }
 };
