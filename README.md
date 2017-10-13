@@ -26,7 +26,7 @@ exampleTest();
 })(this);
 ```
 ### Collaborators
-🏓 James Stubbs
-🏓 Rory Hodgson
-🏓 Mengchen Wang
-🏓 Zoe Hopkins
+-🏓 James Stubbs
+-🏓 Rory Hodgson
+-🏓 Mengchen Wang
+-🏓 Zoe Hopkins
